@@ -6,17 +6,17 @@ import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './H
 const Hero = () => {
 	return (
 		<HeroSection>
-			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
+			<HeroVideo src="./assets/globe.mp4" autoPlay muted />
 			<Container>
-				<MainHeading>Your data is secure with us</MainHeading>
+				<MainHeading>Born In The Cloud, NextGen Solutions</MainHeading>
 				<HeroText>
-					We provide the best security systems for clients all over the world
+					We provide the best Recruitment Software designed to source and hire candidates faster. Tailored for HR teams, recruitment agencies, and headhunters all over the world
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">
-						<Button>Get Started</Button>
+						<Button>Start 14 Days Free Trail</Button>
 					</Link>
-					<HeroButton>Find More</HeroButton>
+					<HeroButton>Book A Demo</HeroButton>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>

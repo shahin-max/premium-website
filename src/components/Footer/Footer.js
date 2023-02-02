@@ -22,11 +22,14 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo.png" />
-							Delta
+							<SocialIcon src="./assets/ej.png" />
+							ejAmerica
 						</FooterLogo>
 						<FooterAddress>
-							69 Street, Delta Building, US Road, Los Angeles 123
+						
+1691 Kettering #106
+Irvine CA USA 92614
++1-800-259-9578
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">
@@ -53,7 +56,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Delta © 2021</FooterRights>
+				<FooterRights>ejAmerica © 2023</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);
